@@ -1,0 +1,213 @@
+/* Fondo y ajustes globales */
+body, .container {
+    background: #000000 !important; 
+}
+
+/* Hero Section */
+header {
+    background: #000000 !important; 
+    text-align: center;
+    padding: 50px 0;
+    box-shadow: 0px 0px 20px #00f2ff;
+    border-bottom: 2px solid #00f2ff; 
+}
+
+header h1, header p, body h2, body p {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 10px #00f2ff;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.9); 
+    box-shadow: 0px 0px 15px #00f2ff;
+    border-bottom: 2px solid #00f2ff;
+}
+
+.navbar-brand, .nav-link {
+    color: #00f2ff !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #ff007f !important;
+}
+
+/* Botones */
+.btn-primary {
+    background: #00f2ff;
+    border: none;
+    box-shadow: 0px 0px 15px #00f2ff;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #ff007f;
+    box-shadow: 0px 0px 20px #ff007f;
+}
+
+/* Tarjetas */
+.card {
+    background: rgba(15, 15, 30, 0.9);
+    border: 1px solid #00f2ff;
+    box-shadow: 0px 0px 15px #00f2ff;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 25px #ff007f;
+}
+
+.card-text {
+    font-size: 1rem !important; 
+    color: #d1d1d1 !important;
+}
+
+.card-title {
+    font-size: 1.2rem !important; 
+    color: #00f2ff !important;
+}
+
+/* Accordion */
+.accordion {
+    background: rgba(0, 0, 0, 0.9) !important;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px #00f2ff;
+}
+
+.accordion-button {
+    color: #00f2ff !important;
+    background: rgba(15, 15, 30, 0.9) !important;
+    border: 1px solid #00f2ff !important;
+    box-shadow: 0px 0px 10px #00ff87;
+}
+
+.accordion-button:hover {
+    background: #ff007f !important;
+    color: white !important;
+    box-shadow: 0px 0px 15px #ff007f;
+}
+
+.accordion-body {
+    background: rgba(10, 15, 30, 0.9) !important;
+    color: #d1d1d1 !important;
+    border: 1px solid #00f2ff !important;
+}
+
+/* Newsletter */
+.newsletter {
+    background: rgba(0, 0, 0, 0.9); 
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 0px 15px #00f2ff;
+    border-top: 2px solid #00f2ff;
+}
+
+.newsletter h2 {
+    color: #00f2ff;
+    text-shadow: 0px 0px 10px #00f2ff;
+}
+
+.newsletter input {
+    border: 2px solid #00f2ff;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+}
+
+.newsletter button {
+    background: #00f2ff;
+    border: none;
+    box-shadow: 0px 0px 10px #00f2ff;
+}
+
+.newsletter button:hover {
+    background: #ff007f;
+    box-shadow: 0px 0px 15px #ff007f;
+}
+
+/* Contacto */
+.contact-info h2 {
+    font-size: 1.5rem !important;
+    text-shadow: 0px 0px 5px #00f2ff; 
+}
+
+.contact-info p {
+    font-size: 1rem !important; 
+    color: #d1d1d1 !important;
+}
+
+.contact-info a {
+    font-size: 1rem !important;
+    color: #00f2ff !important;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #ff007f !important;
+    text-shadow: 0px 0px 10px #ff007f;
+}
+
+.contact-info .btn {
+    font-size: 0.9rem !important;
+    padding: 8px 15px !important;
+    border-radius: 8px !important;
+    background: rgba(0, 0, 0, 0.8);
+    color: #00f2ff;
+    box-shadow: 0px 0px 10px #00f2ff;
+    border: 1px solid #00f2ff;
+}
+
+.contact-info .btn:hover {
+    background: #00f2ff;
+    color: black;
+    box-shadow: 0px 0px 15px #ff007f;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.9) !important;
+    text-shadow: 0px 0px 10px #00f2ff;
+    box-shadow: 0px 0px 20px #00f2ff;
+    padding: 20px;
+    font-size: 1rem !important;
+    text-align: center;
+}
+
+footer p, footer a {
+    font-size: 1rem !important;
+    color: #00f2ff !important;
+}
+
+/* New Features Alert */
+.new-features-alert {
+    font-size: 0.95rem;
+    text-align: center;
+    margin: 30px auto;
+    max-width: 1100px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 0px 15px #00f2ff;
+    border: 1px solid #00f2ff;
+    border-radius: 10px;
+    color: #d1d1d1;
+}
+
+.new-features-alert h4 {
+    color: #00f2ff;
+    text-shadow: 0px 0px 8px #00f2ff;
+    margin-bottom: 20px;
+}
+
+.new-features-alert a {
+    color: #00f2ff;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.new-features-alert a:hover {
+    color: #ff007f;
+    text-shadow: 0px 0px 10px #ff007f;
+}
